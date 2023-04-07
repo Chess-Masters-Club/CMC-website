@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: #FFFBEB;
+    font-family: mono;
+  }
+
+  @font-face {
+    font-family: mono;
+    src: url(./assets/fonts/PPSupplyMono-Regular.otf);
+    font-style: normal;
+    font-weight: normal;
+
+  }
+
+    @font-face {
+        font-family: "mono-light";
+        src: url(./assets/fonts/PPSupplyMono-Ultralight.otf);
+        font-style: normal;
+        font-weight: normal;
+    }
