@@ -1,22 +1,22 @@
-import "./App.css";
-import Hero from "./sections/hero";
-import Navbar from "./sections/navbar";
-import Sponsors from "./sections/sponsors";
-import Partners from "./sections/partners";
-import ContactUs from "./sections/ContactUs";
-import Footer from "./sections/footer";
-import About from "./sections/About";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+// pages
+import Home from "./pages/home/Home";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <About />
-      <Sponsors />
-      <Partners />
-      <ContactUs />
-      <Footer />
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+        </Routes>
+        {/* <Routes>
+          <Route exact path="/about" element={<About />} />
+        </Routes>
+        <Routes>
+          <Route exact path="/contacts" element={<Contacts />} />
+        </Routes> */}
+      </Router>
     </>
   );
 }

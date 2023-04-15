@@ -3,14 +3,14 @@
 @tailwind utilities;
 
 html {
-    scroll-behavior: smooth;
-  }
-  
-  body {
-    background-color: #FFFBEB;
-    font-family: mono;
-  }
+  scroll-behavior: smooth;
+}
 
+body {
+  background-color: #fffbeb;
+  font-family: mono;
+}
+/* 
   @font-face {
     font-family: mono;
     src: url(./assets/fonts/PPSupplyMono-Regular.otf);
@@ -24,4 +24,4 @@ html {
         src: url(./assets/fonts/PPSupplyMono-Ultralight.otf);
         font-style: normal;
         font-weight: normal;
-    }
+    } */
