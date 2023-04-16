@@ -9,7 +9,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import "./navbar.css";
 
 // // logo
-// import LOGO from "../../assets/logo.png";
+import LOGO from "../../../public/logo_small.png";
 
 const Navbar = () => {
   // init hooks
@@ -24,24 +24,24 @@ const Navbar = () => {
   };
 
   return (
-    <header className="navbar-header">
+    <header className="navbar-header px-10">
       {/*  */}
       {/* logo */}
       {/*  */}
       <div className="navbar-logo">
-        {/* <img src={LOGO} width="50px" height="50px" alt="logo" /> */}
+        <img src={LOGO} width="45px" height="45px" alt="logo" />
         <Link to="/" className="navbar-title">
-          <p>CMC</p>
+          <p>Chess Masters</p>
         </Link>
       </div>
       {/*  */}
       {/* nav section */}
       {/*  */}
-      <nav ref={navRef} className="navbar">
+      <nav ref={navRef} className="navbar ">
         {/*  */}
         {/* nav items  */}
         {/*  */}
-        <Link to="/" className="navbar-link">
+        <Link to="/" className="navbar-link ">
           <p>Home</p>
         </Link>
         <Link to="/about" className="navbar-link">

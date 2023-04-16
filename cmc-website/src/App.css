@@ -8,20 +8,10 @@ html {
 
 body {
   background-color: #fffbeb;
-  font-family: mono;
+  font-family: "mono", sans-serif;
 }
-/* 
-  @font-face {
-    font-family: mono;
-    src: url(./assets/fonts/PPSupplyMono-Regular.otf);
-    font-style: normal;
-    font-weight: normal;
 
-  }
-
-    @font-face {
-        font-family: "mono-light";
-        src: url(./assets/fonts/PPSupplyMono-Ultralight.otf);
-        font-style: normal;
-        font-weight: normal;
-    } */
+@font-face {
+  font-family: "mono";
+  src: url(../public/fonts/PPSupplyMono-Regular.otf);
+}

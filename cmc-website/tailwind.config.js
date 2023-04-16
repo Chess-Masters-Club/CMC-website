@@ -11,7 +11,6 @@ export default {
       },
       fontFamily: {
         mono: ["mono", "sans-serif"],
-        "mono-light": ["mono-light", "sans-serif"],
       },
     },
   },
