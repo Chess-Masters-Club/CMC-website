@@ -37,17 +37,26 @@ const Navbar = () => {
       {/*  */}
       {/* nav section */}
       {/*  */}
-      <nav ref={navRef} className="navbar ">
+      <nav ref={navRef} className="navbar  leading-10">
         {/*  */}
         {/* nav items  */}
         {/*  */}
-        <Link to="/" className="navbar-link ">
+        <Link
+          to="/"
+          className="navbar-link transition-all hover:text-tertiary hover:underline underline-offset-4"
+        >
           <p>Home</p>
         </Link>
-        <Link to="/about" className="navbar-link">
+        <Link
+          to="/about"
+          className="navbar-link transition-all hover:text-tertiary hover:underline underline-offset-4"
+        >
           <p>About</p>
         </Link>
-        <Link to="/contacts" className="navbar-link">
+        <Link
+          to="/contacts"
+          className="navbar-link transition-all hover:text-tertiary hover:underline underline-offset-4"
+        >
           <p>Contacts</p>
         </Link>
       </nav>

@@ -4,7 +4,7 @@
   justify-content: space-between;
   height: 10vh;
   padding: 0px 20px;
-  background-color: rgb(22, 37, 124);
+  background-color: #263159;
 }
 /* ########## */
 .navbar-logo {
@@ -14,7 +14,7 @@
 }
 /* ########## */
 .navbar-title {
-  color: white;
+  color: #fffbeb;
   text-decoration: none;
   font-size: 26px;
   margin-left: 20px;
@@ -30,12 +30,10 @@
   margin: 0px 20px;
   padding: 0px 20px;
   text-decoration: none;
-  color: white;
+  color: #fffbeb;
+  transition: all 0.3s ease;
 }
-.navbar-link :hover {
-  color: black;
-  border-bottom: 2px solid black;
-}
+
 /* ########## */
 .navbar-btn {
   display: none !important;
@@ -44,7 +42,7 @@
   font-size: 24px;
 }
 .navbar-btn :hover {
-  color: black !important;
+  color: #495579 !important;
 }
 /* ########## */
 
@@ -60,7 +58,7 @@
   .navbar-btn {
     display: flex !important;
     z-index: 99;
-    color: white;
+    color: #fffbeb;
   }
   .navbar {
     position: absolute;
@@ -73,7 +71,7 @@
     align-items: center;
     justify-content: center;
     gap: 2.5rem;
-    background-color: rgb(22, 37, 124);
+    background-color: #263159;
     transition: 1s ease;
     transform: translateY(-100vh);
   }
