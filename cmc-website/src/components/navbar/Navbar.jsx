@@ -24,7 +24,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="navbar-header px-10">
+    <header className="navbar-header px-3 md:px-10">
       {/*  */}
       {/* logo */}
       {/*  */}
@@ -37,16 +37,11 @@ const Navbar = () => {
       {/*  */}
       {/* nav section */}
       {/*  */}
-      <nav ref={navRef} className="navbar  leading-10">
+      <nav ref={navRef} className="navbar">
         {/*  */}
         {/* nav items  */}
         {/*  */}
-        <Link
-          to="/"
-          className="navbar-link transition-all hover:text-tertiary hover:underline underline-offset-4"
-        >
-          <p>Home</p>
-        </Link>
+
         <Link
           to="/about"
           className="navbar-link transition-all hover:text-tertiary hover:underline underline-offset-4"
@@ -54,10 +49,28 @@ const Navbar = () => {
           <p>About</p>
         </Link>
         <Link
-          to="/contacts"
+          to="/events"
           className="navbar-link transition-all hover:text-tertiary hover:underline underline-offset-4"
         >
-          <p>Contacts</p>
+          <p>Events</p>
+        </Link>
+        <Link
+          to="/sponsors"
+          className="navbar-link transition-all hover:text-tertiary hover:underline underline-offset-4"
+        >
+          <p>Sponsors</p>
+        </Link>
+        <Link
+          to="/partners"
+          className="navbar-link transition-all hover:text-tertiary hover:underline underline-offset-4"
+        >
+          <p>Partners</p>
+        </Link>
+        <Link
+          to="/contact"
+          className="navbar-link transition-all hover:text-tertiary hover:underline underline-offset-4"
+        >
+          <p>Contact</p>
         </Link>
       </nav>
       {/* menu open button */}
