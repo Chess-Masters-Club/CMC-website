@@ -5,6 +5,7 @@ import Footer from "../../components/footer/Footer";
 import Hero from "../../components/hero/Hero";
 import Navbar from "../../components/navbar/Navbar";
 import Partners from "../../components/partners/Partners";
+import Arrow from "../../components/shared/Arrow/Arrow";
 import Sponsors from "../../components/sponsors/Sponsors";
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Partners />
       <ContactUs />
       <Footer />
+      <Arrow />
     </>
   );
 };

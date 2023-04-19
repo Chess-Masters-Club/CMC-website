@@ -1,5 +1,5 @@
 import React from "react";
-import Title from "../shared/Title";
+import Title from "../shared/Title/Title";
 import Knight from "../../../public/W_Knight.png";
 
 export default function Events() {

@@ -1,5 +1,5 @@
 import React from "react";
-import Title from "../shared/Title";
+import Title from "../shared/Title/Title";
 import Pawn from "../../../public/W_Pawn.png";
 import { contactInfos } from "../../data";
 

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Title from "../shared/Title";
+import Title from "../shared/Title/Title";
 import Rook from "../../../public/W_Rook.png";
 
 export default class AboutUs extends Component {

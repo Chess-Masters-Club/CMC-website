@@ -1,6 +1,6 @@
 import React from "react";
 import King from "../../../public/W_King.png";
-import Title from "../shared/Title";
+import Title from "../shared/Title/Title";
 
 export default function Sponsors() {
   return (

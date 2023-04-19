@@ -1,7 +1,7 @@
 import React from "react";
-import Bishop from "../../../public/W_Bishop.png";
-import king from "../../../public/W_King.png";
-import Knight from "../../../public/W_Knight.png";
+import Bishop from "../../../../public/W_Bishop.png";
+import king from "../../../../public/W_King.png";
+import Knight from "../../../../public/W_Knight.png";
 
 import "./Title.css";
 

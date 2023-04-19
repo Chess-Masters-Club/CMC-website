@@ -1,6 +1,6 @@
 import React from "react";
 import Queen from "../../../public/W_Queen.png";
-import Title from "../shared/Title";
+import Title from "../shared/Title/Title";
 
 export default function Partners() {
   return (
