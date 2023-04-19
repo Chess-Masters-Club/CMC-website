@@ -9,6 +9,7 @@ html {
 body {
   background-color: #fffbeb;
   font-family: "mono", sans-serif;
+  overflow-x: hidden;
 }
 
 @font-face {

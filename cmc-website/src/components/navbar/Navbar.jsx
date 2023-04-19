@@ -42,36 +42,41 @@ const Navbar = () => {
         {/* nav items  */}
         {/*  */}
 
-        <Link
+        <a
+          href="#about"
           to="/about"
           className="navbar-link transition-all hover:text-tertiary hover:underline underline-offset-4"
         >
           <p>About</p>
-        </Link>
-        <Link
+        </a>
+        <a
+          href="#events"
           to="/events"
           className="navbar-link transition-all hover:text-tertiary hover:underline underline-offset-4"
         >
           <p>Events</p>
-        </Link>
-        <Link
+        </a>
+        <a
+          href="#sponsors"
           to="/sponsors"
           className="navbar-link transition-all hover:text-tertiary hover:underline underline-offset-4"
         >
           <p>Sponsors</p>
-        </Link>
-        <Link
+        </a>
+        <a
+          href="#partners"
           to="/partners"
           className="navbar-link transition-all hover:text-tertiary hover:underline underline-offset-4"
         >
           <p>Partners</p>
-        </Link>
-        <Link
+        </a>
+        <a
+          href="#contact"
           to="/contact"
           className="navbar-link transition-all hover:text-tertiary hover:underline underline-offset-4"
         >
           <p>Contact</p>
-        </Link>
+        </a>
       </nav>
       {/* menu open button */}
       <div className="navbar-btn" onClick={showNavbar}>
