@@ -23,8 +23,13 @@ const Navbar = () => {
     setOpen(!open);
   };
 
+  const closeNavbar = () => {
+    navRef.current.classList.remove("resp");
+    setOpen(false);
+  };
+
   return (
-    <header className="navbar-header px-3 md:px-10">
+    <header className="navbar-header px-3 md:px-10 shadow-md">
       {/*  */}
       {/* logo */}
       {/*  */}
@@ -41,8 +46,8 @@ const Navbar = () => {
         {/*  */}
         {/* nav items  */}
         {/*  */}
-
         <a
+          onClick={closeNavbar}
           href="#about"
           to="/about"
           className="navbar-link transition-all hover:text-tertiary hover:underline underline-offset-4"
@@ -50,6 +55,7 @@ const Navbar = () => {
           <p>About</p>
         </a>
         <a
+          onClick={closeNavbar}
           href="#events"
           to="/events"
           className="navbar-link transition-all hover:text-tertiary hover:underline underline-offset-4"
@@ -57,6 +63,7 @@ const Navbar = () => {
           <p>Events</p>
         </a>
         <a
+          onClick={closeNavbar}
           href="#sponsors"
           to="/sponsors"
           className="navbar-link transition-all hover:text-tertiary hover:underline underline-offset-4"
@@ -64,6 +71,7 @@ const Navbar = () => {
           <p>Sponsors</p>
         </a>
         <a
+          onClick={closeNavbar}
           href="#partners"
           to="/partners"
           className="navbar-link transition-all hover:text-tertiary hover:underline underline-offset-4"
@@ -71,6 +79,7 @@ const Navbar = () => {
           <p>Partners</p>
         </a>
         <a
+          onClick={closeNavbar}
           href="#contact"
           to="/contact"
           className="navbar-link transition-all hover:text-tertiary hover:underline underline-offset-4"
