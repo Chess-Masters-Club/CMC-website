@@ -59,10 +59,10 @@ export const contactInfos = [
     icon: <MdMail size={20}></MdMail>,
     content: " chess.masters2700@gmail.com",
   },
-  //   {
-  //     href: "tel:+213666634252",
-  //     name: "Phone",
-  //     icon: <BsFillTelephoneFill size={20}></BsFillTelephoneFill>,
-  //     content: "+213 667 471 655",
-  //   },
+  {
+    href: "tel:+213659810946",
+    name: "Phone",
+    icon: <BsFillTelephoneFill size={20}></BsFillTelephoneFill>,
+    content: "+213 659 810 946",
+  },
 ];
