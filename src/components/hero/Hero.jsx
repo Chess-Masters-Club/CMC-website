@@ -23,10 +23,7 @@ const Hero = () => {
               className="bg-clip-text bg-gradient-to-b text-tertiary text-[40px] md:text-[45px] text-center md:text-left w-full lg:text-[50px] xl:text-[60px] font-extrabold "
               variants={textVariant(0.4)}
             >
-              This is{" "}
-              <span className="text-secondary underline underline-offset-4">
-                Chess Masters
-              </span>
+              This is <span className="text-secondary">Chess Masters</span>
             </motion.h1>
 
             <motion.div
@@ -35,14 +32,8 @@ const Hero = () => {
             >
               <div className="ml-2">
                 The first Algerian scientific club for{" "}
-                <span className="text-secondary underline underline-offset-4">
-                  artificial intelligence
-                </span>{" "}
-                🧠 and{" "}
-                <span className="text-secondary underline underline-offset-4">
-                  chess
-                </span>{" "}
-                ♟️
+                <span className="text-secondary">artificial intelligence</span>{" "}
+                🧠 and <span className="text-secondary">chess</span> ♟️
               </div>
               <button className="bg-secondary border-2 transition-all duration-300 text-lg lg:text-2xl text-white font-bold py-4 px-12 rounded-2xl mt-5 lg:mt-10 border-secondary hover:bg-white hover:text-secondary">
                 Join us!
