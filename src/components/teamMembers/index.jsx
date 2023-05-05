@@ -8,8 +8,7 @@ function TeamSection() {
       id="TeamSection"
       className="px-8 sm:px-20 lg:px-[9vw]  pt-16 bg-secondary flex flex-col justify-center md:justify-start "
     >
-        <Title title="Club Members" image={Wp} />
-      
+      <Title title="Our Structure" image={Wp} />
       <TeamTree />
     </div>
   )
