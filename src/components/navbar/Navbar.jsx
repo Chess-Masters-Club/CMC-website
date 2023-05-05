@@ -34,7 +34,7 @@ const Navbar = () => {
       {/* logo */}
       {/*  */}
       <div className="navbar-logo">
-        <img src={LOGO} width="45px" height="45px" alt="logo" />
+        <img src={LOGO} width="35px" height="35px" alt="logo" />
         <Link to="/" className="navbar-title">
           <p>Chess Masters</p>
         </Link>
@@ -61,6 +61,14 @@ const Navbar = () => {
           className="navbar-link transition-all hover:text-tertiary hover:underline underline-offset-4"
         >
           <p>Events</p>
+        </a>
+        <a
+          onClick={closeNavbar}
+          href="#TeamSection"
+          to="/TeamSection"
+          className="navbar-link transition-all hover:text-tertiary hover:underline underline-offset-4"
+        >
+          <p>Club Memebers</p>
         </a>
         <a
           onClick={closeNavbar}

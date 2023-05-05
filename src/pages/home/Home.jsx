@@ -7,6 +7,7 @@ import Navbar from "../../components/navbar/Navbar";
 import Partners from "../../components/partners/Partners";
 import Arrow from "../../components/shared/Arrow/Arrow";
 import Sponsors from "../../components/sponsors/Sponsors";
+import TeamSection from "../../components/teamMembers";
 const Home = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const Home = () => {
       <Hero />
       <AboutUs />
       <Events />
+      <TeamSection />
       <Sponsors />
       <Partners />
       <ContactUs />
