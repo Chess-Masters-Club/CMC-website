@@ -2,7 +2,7 @@ import React from "react";
 function Card(props) {
   return (
     <div className="ml-1 ml-r1 w-[230px] h-auto justify-between bg-secondary flex flex-col items-center p-4 transition-colors duration-300 transform cursor-pointer rounded-xl group hover:bg-tertiary dark:border-gray-700 dark:hover:border-transparent">
-      <div className="ring-4 ring-white w-[150px] h-[150px] rounded-full overflow-hidden">
+      <div className="ring-4 ring-white bg-white w-[150px] h-[150px] rounded-full overflow-hidden">
         <img className="object-cover" src={props.image} alt="" />
       </div>
 

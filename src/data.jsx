@@ -1,6 +1,9 @@
 import { MdMail } from "react-icons/md";
 import { RiMapPin2Fill } from "react-icons/ri";
 import { BsFillTelephoneFill } from "react-icons/bs";
+import univLogo from "../public/Partners/univ2-logo.png";
+import chessLogo from "../public/Partners/chess-logo.png";
+import dascsLogo from "../public/Partners/dascs-logo.png";
 
 import {
   FaFacebook,
@@ -64,5 +67,20 @@ export const contactInfos = [
     name: "Phone",
     icon: <BsFillTelephoneFill size={20}></BsFillTelephoneFill>,
     content: "+213 659 810 946",
+  },
+];
+
+export const partners = [
+  {
+    name: "University Constantine 2",
+    image: univLogo,
+  },
+  {
+    name: "Chess School Constantine",
+    image: chessLogo,
+  },
+  {
+    name: "DASCS",
+    image: dascsLogo,
   },
 ];
