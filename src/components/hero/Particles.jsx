@@ -12,7 +12,7 @@ const Particlesbg = () => {
 
   return (
     <Particles
-      className=" min-h-[500px] w-screen absolute"
+      className="h-[80vh] min-h-[500px] w-screen absolute"
       id="tsparticles"
       init={particlesInit}
       options={{

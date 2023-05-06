@@ -7,7 +7,7 @@ export default class AboutUs extends Component {
     return (
       <div
         id="about"
-        className=" bg-secondary px-8 sm:px-20 lg:px-[9vw] h-[70vh]  pt-16 flex flex-col justify-center md:justify-start "
+        className=" bg-secondary px-8 sm:px-20 lg:px-[9vw] h-[50vh]  pt-16 flex flex-col justify-center md:justify-start "
       >
         <Title title="About Us" image={Rook} />
         <p className="text-white text-lg lg:w-10/12 w-full  ">
