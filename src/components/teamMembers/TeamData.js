@@ -6,7 +6,6 @@ import Queen from "../../../public/W_Queen.png";
 import Rook from "../../../public/W_Rook.png";
 import tou from "../../../public/Team/1.jpg";
 import a2 from "../../../public/Team/2.jpg";
-import a3 from "../../../public/Team/3.jpg";
 import a4 from "../../../public/Team/4.jpg";
 import a5 from "../../../public/Team/5.jpg";
 import a6 from "../../../public/Team/6.png";
@@ -53,11 +52,6 @@ export const teamMembers = [
     role: TM,
   },
   {
-    name: "Raid Teyar",
-    image: a12,
-    role: TM,
-  },
-  {
     name: "Lekhal rahma",
     image: a7,
     role: TM,
@@ -72,15 +66,29 @@ export const teamMembers = [
     image: a8,
     role: TM,
   },
-
   {
-    name: "Chidekh Malak",
-    image: a10,
+    name: "Kerouaz louey",
+    image: a13,
     role: TM,
   },
   {
-    name: "Ihsane Kerroum",
-    image: IhsaneKerroum,
+    name: "Ines Benlatreche",
+    image: InesBenlatreche,
+    role: TM,
+  },
+  {
+    name: "Islam Kadri",
+    image: a45,
+    role: TM,
+  },
+  {
+    name: "Boucenina Seif",
+    image: a15,
+    role: TM,
+  },
+  {
+    name: "Bareche Radouane",
+    image: a43,
     role: TM,
   },
   {
@@ -94,6 +102,11 @@ export const teamMembers = [
     role: TM,
   },
   {
+    name: "Yacine boukaba ",
+    image: YacineBoukaaba,
+    role: TM,
+  },
+  {
     name: "Khaled Oussama",
     image: KhaledOussamaabdelwadjed,
     role: TM,
@@ -103,9 +116,10 @@ export const teamMembers = [
     image: YounesIslamKaouani,
     role: TM,
   },
+
   {
-    name: "Bareche Radouane",
-    image: a43,
+    name: "Ihsane Kerroum",
+    image: IhsaneKerroum,
     role: TM,
   },
   {
@@ -119,20 +133,16 @@ export const teamMembers = [
     role: TM,
   },
   {
+    name: "Bousbia yazid",
+    image: a9,
+    role: TM,
+  },
+  {
     name: "Hanchi belkis",
     image: BelkisHanchi,
     role: TM,
   },
-  {
-    name: "Kerouaz louey",
-    image: a13,
-    role: TM,
-  },
-  {
-    name: "Boucenina Seif",
-    image: a15,
-    role: TM,
-  },
+
   {
     name: "Hadjaz Mohamed Islam",
     image: a17,
@@ -154,25 +164,17 @@ export const teamMembers = [
     role: TM,
   },
   {
-    name: "Ines Benlatreche",
-    image: InesBenlatreche,
+    name: "Chidekh Malak",
+    image: a10,
     role: TM,
   },
-  {
-    name: "Yacine boukaba ",
-    image: YacineBoukaaba,
-    role: TM,
-  },
+
   {
     name: "Aouati zakaria",
     image: AouatiZakaria,
     role: TM,
   },
-  {
-    name: "Islam Kadri",
-    image: a45,
-    role: TM,
-  },
+
   {
     name: "Mellal Ahmed",
     image: user,
@@ -194,11 +196,6 @@ export const teamMembers = [
     image: user,
     role: TM,
   },
-  {
-    name: "Bousbia yazid",
-    image: a9,
-    role: TM,
-  },
 ];
 export const leaders = [
   {
@@ -217,8 +214,8 @@ export const leaders = [
     role: "IR " + TL,
   },
   {
-    name: "DAHIAS Ali Zineddine",
-    image: a3,
+    name: "Teyar Raid",
+    image: a12,
     role: "Tech " + TL,
   },
   {
